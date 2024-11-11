@@ -1,5 +1,5 @@
 import React from 'react';
-import { LogOut } from 'lucide-react';
+import { LogOut , Dumbbell } from 'lucide-react';
 import SearchBar from './SearchBar';
 
 const Header = () => {
@@ -7,9 +7,10 @@ const Header = () => {
     <header className="bg-white border-b border-gray-200 fixed w-full z-30">
       <div className="flex items-center justify-between px-4 lg:px-8 h-16">
         {/* Logo/Project Name */}
-        <div className="flex-shrink-0">
-          <h1 className="text-2xl font-bold text-gray-900">ActiveHub</h1>
-        </div>
+        <div className="flex items-center gap-3 ">
+        <Dumbbell className="w-8 h-8 text-blue-400" />
+        <h1 className="text-xl font-bold">ActiveHub</h1>
+      </div>
 
         {/* Search Bar */}
         <div className="flex-1 max-w-2xl mx-4 lg:mx-8">
