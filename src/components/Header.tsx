@@ -4,8 +4,7 @@ import SearchBar from './SearchBar';
 
 const Header = () => {
   return (
-    <header className="bg-white border-b border-gray-200  top-0 left-0 right-4 w-full z-30 px-4 md:px-6 lg:px-8">
- 
+    <header className="bg-white border-b border-gray-200  w-full z-30">
       <div className="flex items-center justify-between px-4 lg:px-8 h-16">
         {/* Logo/Project Name */}
         <div className="flex items-center gap-3 ">

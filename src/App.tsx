@@ -47,7 +47,7 @@ const mockMembers = [
 ] as const;
 
 function App() {
-  const [sidebarOpen, setSidebarOpen] = useState(true);
+  const [sidebarOpen, setSidebarOpen] = useState(false);
 
   return (
     <Router>
