@@ -9,7 +9,7 @@ const Header = () => {
         {/* Logo/Project Name */}
         <div className="flex items-center gap-3 ">
         <Dumbbell className="w-8 h-8 text-blue-400" />
-        <h1 className="text-xl font-bold">ActiveHub</h1>
+        <h1 className="text-xl font-bold">Active Hub</h1>
       </div>
 
         {/* Search Bar */}
